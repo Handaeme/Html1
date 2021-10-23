@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menu</title>
+</head>
+<body bgcolor="#402218">
+    <style type="text/css">
+        a{text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 12px 10px}
+        ul{padding: 14px}
+        li{list-style: none; display: inline;}
+        li a{background: #222; color:#ffffff;}
+        li a:hover{background: #fffc4d; color:#fff;}
+        .navi{background: #222; height: 50px}
+    </style>
+    <nav class="navi">
+        <ul>
+            <li><a href="Terserah_Resto.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contack Us</a></li>
+            <li><a href="https://www.instagram.com/hanan_nadhif/">Instagram</a></li>
+
+        </ul>
+    </nav>
+    
+    <div>
+     <center><h1 style="color: darkorange;">Daftar Menu :</h1></center>
+    </div>
+   
+    <h2 style="color: rgb(248, 248, 248);">Recommended For You</h2>
+
+    <center><table class="table" style="border: rgb(2, 1, 0);" bgcolor="white" border="8" cellpadding="5">
+        <tr>
+            <td><img src="Image/nasi-goreng-spesial-780x440.jpg"width="150px"height="150px"></td>
+            <td>Nasi Goreng 18.0000</td>
+            <td><img src="Image/Mie.webp"width="150px"height="150px"></td>
+            <td>Mie Goreng 17.0000</td>
+            <td><img src="Image/sup.webp"width="150px"height="150px"></td>
+            <td>Sup Ayam 19.0000</td> 
+            <td><img src="Image/tapoki.jpg"width="150px"height="150px"></td>
+            <td>Tappoki 15.000</td>
+            
+        <tr>  
+            <td><img src="Image/buddae_jiggae.jpg"width="150px"height="150px"></td>
+            <td>Budae Jjigae 35.000</td>
+            <td><img src="Image/odeng.jpg"width="150px"height="150px"></td>
+            <td>Odeng 12.000</td>
+            <td><img src="Image/odeng1.jpg"width="150px"height="150px"></td>
+            <td>Corn Dog 10.000</td>
+            <td><img src="Image/yangnyeom.jpg"width="150px"height="150px"></td>
+            <td>Yangnyeom 18.000</td>
+        </tr>
+            <td><img src="Image/es.webp"width="150px"height="150px"></td>
+            <td>Es Teh 5.0000</td>
+            <td><img src="Image/kopi.webp"width="150px"height="150px"></td>
+            <td>Coffee 10.0000</td>
+            <td><img src="Image/air.jpg"width="150px"height="150px"></td>
+            <td>Air Mineral 3.0000</td>
+            <td><img src="Image/boba.jpg"width="150px"height="150px"></td>
+            <td>Boba 10.0000</td>
+        </tr>    
+    </table></center> 
+   
+   <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+    
+            table, th, td {
+                border: 1px solid rgb(179, 112, 36);
+                font-family: sans-serif;
+            }
+            th, td {
+                padding: 10px;
+            }
+            th {
+                background-color: rgb(19, 110, 170);
+                color: white;
+            }
+            tr:hover {background-color: #f5f5f5;}
+    </style>
+    
+    <div style="color: #fff;">
+        <center>
+        <form method="GET" action="tampil_tamu.php">
+            <fieldset>
+            <center><h2><legend style="color:darkorange">Daftar Tamu Restaurant</legend></h2></center>
+            
+            <label>
+                Nama : 
+            </label>
+            <input type="text" name="nama"><br>   
+
+            <label>
+                Pesan apa : 
+            </label>
+            <textarea name="pesanApa"></textarea><br>
+
+            <label>
+                Alamat :
+            </label>
+            <textarea name="alamat" placeholder="Khusus Delivery/beri tanda(-) jika tidak"></textarea><br>
+            
+            <label>Silahkan Pilih:</label><br>
+            <input type="radio" name="silhkanPilih">Makan sini<value="S">
+            <input type="radio" name="silhkanPilih">Bawa pulang<value="P">
+            <input type="radio" name="silhkaPilih">Delivery<value="D">
+            </fieldset>
+        
+            <input type="submit" value="Pesan">
+        
+        </form>
+        </center>
+    </div> 
+</body>
+</html>
